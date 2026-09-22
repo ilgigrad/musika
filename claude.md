@@ -9,3 +9,4 @@ créer et maintenir un fichier musika.md qui log toutes les évolutions fonction
 ## Journal des évolutions
 
 - 2026-09-22 : architecture retenue pour le synthétiseur as code (5 couches : composition, synthèse, audio I/O, mixage/effets, export). Détails dans musika.md. Pas encore de code installé ni de dépôt git initialisé.
+- 2026-09-22 : scaffold installé (virtualenv, pas de Docker — pas d'accès CoreAudio depuis un conteneur macOS) et poussé sur https://github.com/ilgigrad/musika (branche main). Détails dans musika.md.
